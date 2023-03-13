@@ -4054,7 +4054,7 @@ object {
   text-align: right;
 }
 .icon-box--bg-color:hover {
-  background-color: #000;
+  background-color: #350de9;
 }
 .icon-box--bg-color:hover .link_overlay {
   z-index: 1;
