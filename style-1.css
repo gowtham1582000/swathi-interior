@@ -7672,14 +7672,10 @@ section {
     -o-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
 }
-.clients-slide .img-item img, .clients-slide-medium .img-item img {
-    width: auto;
-    opacity: .7;
-    filter: brightness(100%) contrast(0%) saturate(100%) blur(0) hue-rotate(0deg);
-}
+
 .clients-slide .img-item img:hover, .clients-slide-medium .img-item img:hover {
-    opacity: 1;
-    filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);
+  opacity: 1;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);
 }
 .section-team-list {
     background-image: url(images/bg/bg1-team-1.jpg);
@@ -8580,9 +8576,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 .grid-lines .color-line-secondary {
     background-color: rgba(255,255,255,.3)
 }
-.bg-light-1 {
-    background-color: #F4F4F4;
-}
+
 .client-1 {
     padding-bottom: 71px;
     padding-top: 71px;
